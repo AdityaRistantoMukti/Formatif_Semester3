@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+
+    tools:context=".MemberActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/btn_kembali"
+                android:layout_width="300px"
+                android:layout_height="120px"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/button_kembali"
+                android:text="Kembali" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="300px"
+                    android:layout_height="120px"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_kembali"
+                    android:text="Logout"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="120px"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:background="@drawable/shape_circle"
+            android:padding="25px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:background="@drawable/teamwork_1384308"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="100px"
+            android:text="Members"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:layout_marginTop="700px"
+        android:padding="8dp"
+        >
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="250px"
+            android:background="@drawable/baseline_person_24"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ashari Maturidi"
+            android:layout_marginTop="35dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginStart="80dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/card1"
+        android:padding="8dp"
+        >
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="250px"
+            android:background="@drawable/baseline_person_24"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Aditya Ristanto Mukti"
+            android:layout_marginTop="35dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginStart="80dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/card2"
+        android:padding="8dp"
+        >
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="250px"
+            android:background="@drawable/baseline_person_24"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bandhi Tia Solihin"
+            android:layout_marginTop="35dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginStart="80dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/card3"
+        android:padding="8dp"
+        >
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="250px"
+            android:background="@drawable/baseline_person_24"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mohammad Ramsa Sabil"
+            android:layout_marginTop="33dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginStart="80dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

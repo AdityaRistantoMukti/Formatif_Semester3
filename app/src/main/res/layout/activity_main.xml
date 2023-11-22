@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="2dp"
+        >
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="300px"
+            android:layout_height="120px"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_kembali"
+            android:text="Logout"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="120px"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+       <LinearLayout
+           android:layout_width="400px"
+           android:layout_height="400px"
+           android:background="@drawable/shape_circle"
+           android:padding="25px"
+           android:layout_gravity="center"
+           >
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/logo_tim"
+              />
+
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20px"
+           android:textStyle="bold"
+           android:layout_gravity="center"
+           android:textSize="100px"
+           android:text="KELOMPOK 4"
+           android:textColor="@color/white"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10px"
+           android:textStyle="bold"
+
+           android:layout_gravity="center"
+           android:textSize="60px"
+           android:text="Selamat Datang di aplikasi kami"
+           android:textColor="@color/white"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/shape_card"
+        android:layout_width="match_parent"
+        android:layout_height="800px"
+        android:background="@drawable/shape_card"
+        android:layout_marginTop="800px"
+        android:padding="20px"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hallo, "
+                android:textStyle="bold"
+                android:textSize="30dp"
+                />
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/primary"
+                android:textSize="30dp"
+                android:textStyle="bold|italic"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan Pilih Menu "
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30px"
+            >
+
+            <LinearLayout
+                android:layout_width="300px"
+                android:layout_height="300px"
+
+                android:orientation="horizontal"
+                android:layout_marginRight="40px"
+                >
+                <LinearLayout
+                    android:id="@+id/sosmed"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_green"
+                    >
+                    <ImageView
+                        android:layout_width="260px"
+                        android:layout_height="250px"
+                        android:background="@drawable/teamwork_1384308"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20px"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:id="@+id/button_mid"
+                android:orientation="horizontal"
+                android:layout_marginRight="40px"
+                >
+                <LinearLayout
+                    android:id="@+id/kalkulator"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_green"
+                    >
+                    <ImageView
+                        android:layout_width="260px"
+                        android:layout_height="250px"
+                        android:background="@drawable/calculator"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20px"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300px"
+                android:layout_height="300px"
+
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:id="@+id/website"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_green"
+                    >
+                    <ImageView
+                        android:layout_width="280px"
+                        android:layout_height="280px"
+                        android:background="@drawable/website"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20px"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70px"
+            android:text="Members"
+            android:textColor="@android:color/black"
+            android:textSize="55px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kalkulator"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="55px"
+            android:layout_marginTop="-70px"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Website"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="55px"
+            android:layout_marginTop="-70px"
+            android:layout_marginLeft="338px"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Created By Kelompok 4"
+        android:layout_below="@+id/shape_card"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
